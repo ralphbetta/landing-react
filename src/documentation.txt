@@ -1,7 +1,8 @@
 >> npx create-react-app my-project
 >> npm install -D tailwindcss
 >> npx tailwindcss init  
->> npm intall react-icons --save
+>> npm install react-icons --save
+>> npm install react-typed --save / --force
 >> npm run start
 
 
