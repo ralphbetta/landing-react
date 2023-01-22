@@ -1,0 +1,14 @@
+>> npx create-react-app my-project
+>> npm install -D tailwindcss
+>> npx tailwindcss init  
+>> npm intall react-icons --save
+>> npm run start
+
+
+
+#### del from src - App.css/App.test.js/logo.svg/reportWebVitals.js/setupTest.js
+#### pesticide chrom extension shows the frid position of your content
+
+/*---------------------------------------------------------
+https://tailwindcss.com/docs/guides/create-react-app
+---------------------------------------------------------*/
