@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "./components/Analytics";
 import { Hero } from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -7,10 +8,11 @@ function App() {
     <div >
     <Navbar/>
     <Hero/>
+    <Analytics/>
     <div className="bg-[#f2f2f2] p-6">   
       <div className="p-4 bg-white max-w-sm rounded-md shadow-md flex">
       <div>
-        <img src="./icon.png" alt="just icon"></img>
+        <img src="" alt="just icon"></img>
       </div>
       <div></div>
       </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='h-24 max-w=[1240px] text-white mx-auto px-4 flex justify-between items-center'>
-        <h1 className='font-bold'>React.</h1>
+        <h1 className='font-bold text-[#00df9a] text-3xl'>React.</h1>
         {/* mobile first: hidden else flex */}
         <ul className='hidden md:flex'>
             <li className='p-4'>Home</li>

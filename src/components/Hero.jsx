@@ -12,7 +12,7 @@ export const Hero = () => {
             Fast, flexible finance for
         </p>
         <Typed 
-        className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
+        className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#00df9a] '
          strings={['BTB', 'BTC', 'SASS']}
          typeSpeed={200}
          backSpeed={140}
@@ -20,7 +20,7 @@ export const Hero = () => {
         />
 
       </div>
-      <p className=' md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms</p>
+      <p className=' px-2 md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms</p>
         <button className=' bg-[#00df9a] py-3 mx-auto font-medium w-[200px] rounded-md my-6 '>Get Started</button>
     </div>
    </div>
