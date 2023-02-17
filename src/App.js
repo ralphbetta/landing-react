@@ -1,5 +1,6 @@
 import React from "react";
 import { Analytics } from "./components/Analytics";
+import Cards from "./components/Cards";
 import { Hero } from "./components/Hero";
 import Navbar from "./components/Navbar";
 import { Newsletter } from "./components/Newsletter";
@@ -11,6 +12,7 @@ function App() {
     <Hero/>
     <Analytics/>
     <Newsletter/>
+    <Cards />
 
     <div className="bg-[#f2f2f2] p-6">   
       <div className="p-4 bg-white max-w-sm rounded-md shadow-md flex">
