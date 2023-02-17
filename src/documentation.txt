@@ -3,6 +3,7 @@
 >> npx tailwindcss init  
 >> npm install react-icons --save
 >> npm install react-typed --save / --force
+>> npm install react-router-dom --save / --force
 >> npm run start
 
 

@@ -1,31 +1,23 @@
 import React from "react";
-import { Analytics } from "./components/Analytics";
-import Cards from "./components/Cards";
-import Footer from "./components/Footer";
-import { Hero } from "./components/Hero";
+import Home from "./pages/Home";
+import About from "./pages/About";
+
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 import Navbar from "./components/Navbar";
-import { Newsletter } from "./components/Newsletter";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div >
-    <Navbar/>
-    <Hero/>
-    <Analytics/>
-    <Newsletter/>
-    <Cards />
-    <Footer />
-
-    {/* <div className="bg-[#f2f2f2] p-6">   
-      <div className="p-4 bg-white max-w-sm rounded-md shadow-md flex">
-      <div>
-        <img src="" alt="just icon"></img>
-      </div>
-      <div></div>
-      </div>
-      </div> */}
-
-    </div>
+    <Router>
+      {/* Including App bar for global purpose */}
+        <Navbar/>
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+        <Route exact path='/About' element={<About/>} />
+        <Route exact path='/Contact' element={<Contact/>} />
+      </Routes>
+    </Router>
   );
 }
 

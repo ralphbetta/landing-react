@@ -5,9 +5,8 @@ import card3 from '../assets/user-experience.png'
 
 const Cards = () => {
   return (
-    <div className=' w-full py-[10rem] px-4 bg-white'>
-        {/* grid for mobile and grid-col-3 from medium above */}
-        <div className=' max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
+   
+        <div className=' w-full py-[10rem] px-4 mx-auto grid md:grid-cols-3 gap-8 bg-white '>
            {/* this is the card body */}
             <div className=' w-full shadow-lg flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-3rem]' src= {card1} alt="user" />
@@ -44,7 +43,7 @@ const Cards = () => {
             </div>
             
         </div>
-    </div>
+  
   )
 }
 

@@ -1,10 +1,9 @@
 import React from 'react'
  import Icon from '../assets/icon.png'
 
-export const Analytics = () => {
+ const Analytics = () => {
   return (
-    <div className=' w-full bg-white py-16 px-4'>
-      <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+    <div className=' w-full bg-white py-1 px-4 mx-auto grid md:grid-cols-2'>
         <img className='w-[500px] mx-auto my-4' src={Icon} alt='/' />
         <div className='flex flex-col justify-center'>
           <p className=' text-[#00df9a] font-bold'>DATA ANALYTICS DASHBOARD</p>
@@ -19,7 +18,8 @@ export const Analytics = () => {
           </p>
           <button className=' text-[#00df9a] py-3 mx-auto font-medium w-[200px] rounded-md my-6 bg-black'>Get Started</button>
         </div>
-      </div>
     </div>
   )
 }
+
+export default Analytics

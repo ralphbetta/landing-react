@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -13,15 +14,21 @@ const Navbar = () => {
     };
 
   return (
-    <div className='h-24 max-w=[1240px] text-white mx-auto px-4 flex justify-between items-center'>
+    <div className=' w-full flex text-white justify-between items-center mx-auto'>
         <h1 className='font-bold text-[#00df9a] text-3xl'>React.</h1>
         {/* mobile first: hidden else flex */}
         <ul className='hidden md:flex'>
-            <li className='p-4'>Home</li>
+            <li className='p-4'>
+                <NavLink to="/">Home</NavLink>
+            </li>
             <li className='p-4'>Company</li>
             <li className='p-4'>Resources</li>
-            <li className='p-4'>About</li>
-            <li className='p-4'>Contact</li>
+            <li className='p-4'>
+                <NavLink to="/About">About</NavLink>
+            </li>
+            <li className='p-4'>
+            <NavLink to="/Contact">Contact</NavLink>
+            </li>
         </ul>
         {/* mobile first: block else hidden */}
         <div className=' block md:hidden ease-in-out duration-500' onClick={handleNav}>
