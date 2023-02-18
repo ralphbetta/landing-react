@@ -36,7 +36,7 @@ const EcomMenu = () => {
                     <li> <a href="#" className='flex items-center gap-4 text-gray-700 bg-white py-3 px-5'><AiOutlineTags className='text-primary'/>Tags</a></li>
                 </ul>
             </div>
-            <ul className='flex space-x-3 ml-6'>
+            <ul className='hidden md:flex space-x-3 ml-6'>
                 <li> <a href="#">Home</a> </li>
                 <li> <a href="#">Shop</a> </li>
                 <li> <a href="#">About Us</a></li>
