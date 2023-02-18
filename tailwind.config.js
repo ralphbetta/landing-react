@@ -16,8 +16,11 @@ module.exports = {
         xl: '1200px',
       },
       colors:{
-        primary: '#ED3057'
-      }
+        primary: '#ED3057',
+        primary_shade:'#ba0d31',
+
+      },
+  
     },
   },
   plugins: [],
