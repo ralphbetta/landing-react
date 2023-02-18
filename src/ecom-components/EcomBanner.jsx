@@ -13,10 +13,10 @@ const EcomBanner = () => {
       <div className=' font-semibold text-4xl pt-16 font-roboto mb-1'>
         Best Collect For <br/> Home Decoration
       </div>
-      <p className=''>
+      <p>
       New JavaScript versions enforce the security for coding practices by employing the use strict directive. To state the functions.   
       </p>
-      <button className='bg-primary hover:bg-primary_shade text-white p-3 rounded-md mt-3'>SHOP NOW</button>
+      <button className='bg-primary hover:bg-primary_shade transition text-white p-3 rounded-md mt-3'>SHOP NOW</button>
       </div>
     </div>
   )
