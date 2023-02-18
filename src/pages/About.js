@@ -3,6 +3,7 @@ import React from 'react'
 import { 
     FaTrash
 } from 'react-icons/fa'
+import Navbar from '../components/Navbar';
 
 // react app using web hook
 
@@ -34,7 +35,9 @@ function About() {
       };
 
   return (
+  
     <div className='text-white items-center justify-center'>
+          <Navbar/>
         <h1 className=' text-center font-extrabold  text-2xl text-yellow-400'>Todo</h1>
         
         <TodoForm addTodo={addTodo} />

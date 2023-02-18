@@ -4,7 +4,7 @@ import React from 'react'
 // import Cards from "./pages/components/Cards";
 // import Footer from "./pages/components/Footer";
 // import { Hero } from "./pages/components/Hero";
-import Navbar from "./../components/Navbar";
+import Navbar from '../components/Navbar';
 import Hero from "./../components/Hero";
 import Analytics from "./../components/Analytics";
 import Newsletter from "./../components/Newsletter";
@@ -15,7 +15,8 @@ import Footer from "./../components/Footer";
 
 function Home() {
   return (
-    <div >
+    <div>
+    <Navbar/>
     <Hero/>
     <Analytics/>
     <Newsletter/>
