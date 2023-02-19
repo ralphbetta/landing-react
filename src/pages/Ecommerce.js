@@ -4,6 +4,7 @@ import EcomCategories from '../ecom-components/EcomCategories'
 import EcomMenu from '../ecom-components/EcomMenu'
 import EcomNav from '../ecom-components/EcomNav'
 import EcomShopCat from '../ecom-components/EcomShopCat'
+import TopArrival from '../ecom-components/TopArrival'
 
 const Ecommerce = () => {
   return (
@@ -13,8 +14,11 @@ const Ecommerce = () => {
        <EcomBanner/>
        <EcomCategories/>
        <EcomShopCat/>
+       <TopArrival/>
     </div>
   )
 }
 
 export default Ecommerce
+
+

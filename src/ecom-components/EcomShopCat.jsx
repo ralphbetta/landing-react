@@ -9,7 +9,7 @@ import cat6 from '../ecom-assets/category/category-6.jpg'
 const EcomShopCat = () => {
   return (
     <div className='px-5 py-5'>
-        <h2 className="text-gray-400 uppercase text-xl font-medium">Shop By Category</h2>
+        <h2 className=" text-gray-900 mb-2 uppercase text-xl font-medium">Shop By Category</h2>
         <div className="grid md:grid-cols-3 gap-4">
             {/* categories card */}
             <div className="relative rounded-m group">
