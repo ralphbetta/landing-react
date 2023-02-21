@@ -5,6 +5,8 @@ import EcomMenu from '../ecom-components/EcomMenu'
 import EcomNav from '../ecom-components/EcomNav'
 import EcomShopCat from '../ecom-components/EcomShopCat'
 import TopArrival from '../ecom-components/TopArrival'
+import SecondBanner from '../ecom-components/SecondBanner'
+import Counter from '../ecom-components/Counter'
 
 const Ecommerce = () => {
   return (
@@ -15,6 +17,7 @@ const Ecommerce = () => {
        <EcomCategories/>
        <EcomShopCat/>
        <TopArrival/>
+       <SecondBanner/>
     </div>
   )
 }

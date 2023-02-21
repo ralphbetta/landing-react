@@ -10,7 +10,7 @@
 
 #### del from src - App.css/App.test.js/logo.svg/reportWebVitals.js/setupTest.js
 #### pesticide chrom extension shows the frid position of your content
-
+#### https://picsum.photos/ - for random images
 /*---------------------------------------------------------
 https://tailwindcss.com/docs/guides/create-react-app
 ---------------------------------------------------------*/
